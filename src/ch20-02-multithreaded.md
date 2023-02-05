@@ -87,7 +87,7 @@ successful HTML page.
 -->
 
 このコードはちょっと汚いですが、シミュレーション目的には十分です。2番目のリクエスト`sleep`を作成し、
-そのデータをサーバは認識します。`if`ブロックの後に　`else if`を追加し、*/sleep*へのリクエストを確認しています。
+そのデータをサーバは認識します。`if`ブロックの後に`else if`を追加し、*/sleep*へのリクエストを確認しています。
 そのリクエストが受け付けられると、サーバは成功のHTMLページを描画する前に5秒間スリープします。
 
 <!--
@@ -927,7 +927,7 @@ execution. We’ll also give each worker an `id` so we can distinguish between
 the different workers in the pool when logging or debugging.
 -->
 
-スレッドプールに`JoinHanlde<()>`インスタンスのベクタを格納する代わりに、`Worker`構造体のインスタンスを格納します。
+スレッドプールに`JoinHandle<()>`インスタンスのベクタを格納する代わりに、`Worker`構造体のインスタンスを格納します。
 各`Worker`が単独の`JoinHandle<()>`インスタンスを格納します。そして、`Worker`に実行するコードのクロージャを取り、
 既に走っているスレッドに実行してもらうために送信するメソッドを実装します。ログを取ったり、デバッグする際にプールの異なるワーカーを区別できるように、
 各ワーカーに`id`も付与します。

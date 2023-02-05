@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: quay.io/rust-lang-ja/circleci:mdbook-0.4.8-rust-1.49.0
+      - image: quay.io/rust-lang-ja/circleci:mdbook
     parallelism: 1
     steps:
       - checkout
@@ -13,7 +13,7 @@ jobs:
       - run: rustc -V
       - run: mdbook -V
       - run: mdbook test
-      - run: mdbook build
+      - run: mdbook build --dest-dir docs
       - run: cargo run --bin lfp src
       # TODO: Run link2print here. (See ci/build.sh on the master branch)
       # - run: TODO

@@ -10,15 +10,20 @@ command line tool for managing Rust versions and associated tools. You’ll need
 an internet connection for the download.
 -->
 
-最初の手順は、Rustをインストールすることです。Rustは、Rustのバージョンと関連するツールを管理する、`rustup`というコマンドラインツールを使用してダウンロードします。ダウンロードするには、インターネット接続が必要でしょう。
+最初の手順は、Rustをインストールすることです。Rustは、Rustのバージョンと関連するツールを管理する、`rustup`というコマンドラインツールを使用してダウンロードします。ダウンロードには、インターネットへの接続が必要になります。
 
 <!--
 > Note: If you prefer not to use `rustup` for some reason, please see [the Rust
 > installation page](https://www.rust-lang.org/tools/install) for other options.
 -->
 
-> 注釈: なんらかの理由で`rustup`を使用したくない場合、[Rustインストールページ](https://www.rust-lang.org/tools/install)で、
+> 注釈: なんらかの理由で`rustup`を使用したくない場合、[Rustインストールページ][rust-installation-page]で、
 > 他の選択肢をご覧になってください。
+
+> 訳注：日本語版のRustインストールページは[こちら][rust-installation-page-ja]です。
+
+[rust-installation-page]: https://www.rust-lang.org/tools/install/
+[rust-installation-page-ja]: https://www.rust-lang.org/ja/tools/install/
 
 <!--
 The following steps install the latest stable version of the Rust compiler.
@@ -212,7 +217,7 @@ Rustが`%PATH%`システム環境変数にあることを確認してくださ�
 > 違うそうです。検索したら、堅牢性が高いから甲殻類という意見もありますが、真偽は不明です。
 > 明日使えるかもしれないトリビアでした。
 
-> 訳注2：上にある公式Discordは英語話者のコミュニティです。日本語話者のためのコミュニティが[slackにあり][slack_jp]、こちらでもRustaceanたちが活発に議論をしています。
+> 訳注2：上にある公式Discordは英語話者のコミュニティです。日本語話者のためのコミュニティが[Zulip rust-lang-jpにあり][zulip_jp]、こちらでもRustaceanたちが活発に議論をしています。
 > 公式Discord同様、初心者向けの#beginnersチャンネルが存在するので、気軽に質問してみてください。
 
 [discord]: https://discord.gg/rust-lang
@@ -220,7 +225,7 @@ Rustが`%PATH%`システム環境変数にあることを確認してくださ�
 [stackoverflow]: https://stackoverflow.com/questions/tagged/rust
 [twitter]: https://mobile.twitter.com/rustlang/status/916284650674323457
 [mascott]: https://www.slideshare.net/wolf-dog/ss-64026540
-[slack_jp]: https://rust-jp.herokuapp.com/
+[zulip_jp]: https://rust-lang-jp.zulipchat.com
 
 <!--
 ### Local Documentation

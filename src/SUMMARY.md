@@ -10,7 +10,7 @@
 -->
 [The Rust Programming Language 日本語版](title-page.md)
 [まえがき](foreword.md)
-[導入](ch00-00-introduction.md)
+[はじめに](ch00-00-introduction.md)
 
 <!--
 ## Getting started
@@ -31,7 +31,7 @@
 <!--
 - [Programming a Guessing Game](ch02-00-guessing-game-tutorial.md)
 -->
-- [数当てゲームをプログラムする](ch02-00-guessing-game-tutorial.md)
+- [数当てゲームのプログラミング](ch02-00-guessing-game-tutorial.md)
 
 <!--
 - [Common Programming Concepts](ch03-00-common-programming-concepts.md)
@@ -46,7 +46,7 @@
     - [データ型](ch03-02-data-types.md)
     - [関数](ch03-03-how-functions-work.md)
     - [コメント](ch03-04-comments.md)
-    - [フロー制御](ch03-05-control-flow.md)
+    - [制御フロー](ch03-05-control-flow.md)
 
 <!--
 - [Understanding Ownership](ch04-00-understanding-ownership.md)
@@ -78,8 +78,8 @@
 -->
 - [Enumとパターンマッチング](ch06-00-enums.md)
     - [Enumを定義する](ch06-01-defining-an-enum.md)
-    - [`match`フロー制御演算子](ch06-02-match.md)
-    - [`if let`で簡潔なフロー制御](ch06-03-if-let.md)
+    - [`match`制御フロー演算子](ch06-02-match.md)
+    - [`if let`で簡潔な制御フロー](ch06-03-if-let.md)
 
 <!--
 ## Basic Rust Literacy
@@ -108,7 +108,7 @@
     - [Storing Keys with Associated Values in Hash Maps](ch08-03-hash-maps.md)
 -->
 - [一般的なコレクション](ch08-00-common-collections.md)
-    - [ベクタで一連の値を保持する](ch08-01-vectors.md)
+    - [ベクタで値のリストを保持する](ch08-01-vectors.md)
     - [文字列でUTF-8でエンコードされたテキストを保持する](ch08-02-strings.md)
     - [キーとそれに紐づいた値をハッシュマップに格納する](ch08-03-hash-maps.md)
 
@@ -293,6 +293,6 @@
     - [付録B：演算子と記号](appendix-02-operators.md)
     - [付録C：導出可能なトレイト](appendix-03-derivable-traits.md)
     - [付録D：便利な開発ツール](appendix-04-useful-development-tools.md)
-    - [付録E：Edition](appendix-05-editions.md)
+    - [付録E：エディション](appendix-05-editions.md)
     - [付録F：本の翻訳](appendix-06-translation.md)
     - [付録G：Rustの作られ方と“Nightly Rust”](appendix-07-nightly-rust.md)
