@@ -9,7 +9,7 @@ additional-js = ["ferris.js"]
 
 [output.epub]
 use-default-css = false
-additional-css = ["epub/css/book-style.css", "epub/css/style-reset.css", "epub/css/style-standard.css", "epub/css/style-advance.css", "ferris.css", "theme/2018-edition.css", "theme/em-to-bold.css"]
+additional-css = ["epub/css/style-reset.css", "epub/css/style-standard.css", "epub/css/style-advance.css", "epub/css/book-style.css", "ferris.css", "theme/2018-edition.css", "theme/em-to-bold.css"]
 curly-quotes = false
 remove-html-comments = true
 enable-rust-codeblock-filter = true
